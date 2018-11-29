@@ -1,0 +1,24 @@
+{
+    "compilerOnSave": true,
+    "compilerOption": {
+        "outDir":"DIRECTORY",
+        "module": "commonjs",
+        "target": "es6",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "sourceMap": true
+        
+    },
+    "exclude": [
+        "allure-results",
+        "logfiles",
+        "node_modules",
+        "resources"
+    ],
+    "include": [
+        "configrunner",
+        "specfiles/**/*"
+    ]
+}

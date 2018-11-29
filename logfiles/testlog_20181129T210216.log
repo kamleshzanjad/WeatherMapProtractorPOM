@@ -1,0 +1,19 @@
+05:11:2018_23217 - info: Starting Test script excution for class: WeatherMapNegativeScenario
+05:11:2018_23217 - info: Starting Test script excution for method:   Verify message'Not found' is displayed when invalid city name is entered 
+05:11:2018_23217 - debug: Inside Method WebElementOperationNonAngular.isPageAngular
+05:11:2018_23217 - debug: Inside Method FunctionsHomePage.navigateToApplication 
+05:11:2018_23217 - debug: Inside Method WebElementOperationNonAngular.openApplication, with url 'https://openweathermap.org/'
+05:11:2018_23227 - debug: Inside Method FunctionsHomePage.enterSearchCriteria 
+05:11:2018_23227 - debug: Inside Method WebElementOperationNonAngular.setElementText
+05:11:2018_23227 - debug: Inside Method WebElementOperationNonAngular.getLocatorString
+05:11:2018_23227 - debug: Inside Method FunctionsHomePage.clickSearchButton 
+05:11:2018_23227 - debug: Inside Method WebElementOperationNonAngular.clickElement
+05:11:2018_23227 - debug: Inside Method WebElementOperationNonAngular.getLocatorString
+05:11:2018_23242 - debug: Inside Method FunctionsHomePage.getAlertMessage 
+05:11:2018_23242 - debug: Inside Method WebElementOperationNonAngular.getElementText
+05:11:2018_23242 - debug: Inside Method WebElementOperationNonAngular.getLocatorString
+05:11:2018_23243 - info: Completed Test script excution for method:  Verify message'Not found' is displayed when invalid city name is entered 
+05:11:2018_23243 - info: ------------------------------------------------ 
+05:11:2018_23243 - info: Completed Test script excution for class: WeatherMapNegativeScenario
+05:11:2018_23243 - info: ------------------------------------------------ 
+05:11:2018_23243 - info: ------------------------------------------------ 

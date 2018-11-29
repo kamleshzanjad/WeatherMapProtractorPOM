@@ -1,0 +1,59 @@
+{
+  "name": "automationtesting",
+  "version": "1.0.0",
+  "description": "FunctionalTesting",
+  "main": "config.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jasmine": "^2.8.8",
+    "allure-js-commons": "^1.3.1",
+    "jasmine-spec-name-patch": "^1.1.0",
+    "path": "^0.12.7",
+    "promise": "^7.0.4",
+    "properties-reader": "0.0.16",
+    "@types/jasminewd2": "^2.0.0",
+    "protractor-flake": "^3.3.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.3.5",
+    "jasmine": "2.8.0",
+    "jasmine-allure-reporter": "~1.0.2",
+    "jasmine-core": "~2.4.1",
+    "jasmine-expect": "~2.0.1",
+    "jasmine-reporters": "~2.3.0",
+    "lodash": "^4.17.0",
+    "npm": "^6.4.1",
+    "protractor": "^5.2.0",
+    "protractor-html-screenshot-reporter": "~0.0.21",
+    "protractor-jasmine2-html-reporter": "~0.0.7",
+    "protractor-jasmine2-screenshot-reporter": "~0.5.0",
+    "random-strings": "0.0.1",
+    "selenium-webdriver": "^2.53.1",
+    "ts-node": "^3.3.0",
+    "tsconfig-paths": "^3.4.1",
+    "tslint": "~5.7.0",
+    "types": [
+      "jasmine",
+      "node"
+    ],
+    "typescript": "^2.9.2",
+    "winston": "~2.4.1"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "cls  && npm run tsc && cls",
+    "test": "protractor-flake --parser multi --max-attempts=2  -- configrunner//config.js",
+    "posttest": "node_modules//allure-commandline//dist//bin//allure serve .//allure-results",
+    "postreport": "node_modules//allure-commandline//dist//bin//allure serve .//allure-results  && node_modules//allure-commandline//dist//bin//allure generate allure-results --clean -O allure-report || true"
+  },
+  "keywords": [
+    "Protractor",
+    "Typescript",
+    "allure",
+    " jasmine-plugin",
+    "jasmine-reporter",
+    "protractor-reporter",
+    "tsc"
+  ]
+}

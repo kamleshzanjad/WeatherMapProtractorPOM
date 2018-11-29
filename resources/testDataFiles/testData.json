@@ -1,0 +1,31 @@
+{
+    "001": {
+        "Objective": "Verify that searchtext box has default value and search button is highlighed with color",
+        "searchValue": "pune, IN",
+        "defaultText":"Your city name",
+        "Color":"Red"
+    },
+    "002": {
+        "Objective": "Verify message'Not found' is displayed when invalid city name is entered",
+        "searchValue": "PuneXXXX, IN",
+        "ExpectedValue":"Not found"
+    },
+    "003": {
+        "Objective": "Verify weather information is displayed when valid city name is entered",
+        "searchValue": "Mumbai, IN",
+        "ExpectedValue":"Mumbai"
+    },
+
+    "004": {
+        "Objective": "Verify that title text has particular width annd height ",
+        "width":"240",
+        "heigth":"30"
+    },
+
+    "005": {
+        "Objective": "Verify weather information is displayed for multiple city when partial city name is entered ",
+        "searchValue": "Pune",
+        "ExpectedValue":"Pune"
+    }
+    
+}
